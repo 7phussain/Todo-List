@@ -1,0 +1,21 @@
+.inputs{
+    display: flex;
+    margin-bottom: 30px;
+    flex: 8%;
+}
+.inputs input{
+    flex:80%;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    margin-right: 5px;
+}
+.inputs button{
+    flex: 20%;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

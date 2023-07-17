@@ -1,0 +1,31 @@
+.task{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.task:hover{
+    background-color: rgb(231, 230, 230);
+}
+.taskTitle{
+    flex: 75%;
+}
+.taskButtons{
+    flex: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+.taskButtons button{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.taskButtons button:hover{
+    background-color: #293952;
+    color: white;
+}
